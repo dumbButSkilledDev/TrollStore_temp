@@ -1,6 +1,8 @@
-# TrollStore
+# TrollStore_temp
 
 TrollStore is a permasigned jailed app that can permanently install any IPA you open in it.
+# TrollStore_temp modifications
+apps must be installed every time when the icon cache loads, so trollstore would in fact need to be signed, and when ran, you would need to reinstall your ipas. But every version on 17 where kfd works, this should support.
 
 It works because of an AMFI/CoreTrust bug where iOS does not correctly verify code signatures of binaries in which there are multiple signers.
 
